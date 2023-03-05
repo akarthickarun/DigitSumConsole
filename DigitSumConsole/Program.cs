@@ -43,7 +43,7 @@ int Demo(int value, IExplain? explain)
     if (value > 9)
     {
         var values = Split(value);
-        var sum = values.Sum(x => x);
+        var sum = values.Sum();
 
         /// Explain will keep the intermediate results
         /// based on the explanation instance passed through. 
